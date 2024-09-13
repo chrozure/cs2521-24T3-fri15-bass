@@ -1,0 +1,33 @@
+Hello everyone and welcome to COMP2521 for 24T3!!
+
+My name is Harry, and I'm a fourth year studying Computer Science and Science (maths)!
+I will be your tutor for this term, and Stanley will be our lab assistant!
+
+This course is a step up from COMP1511, where we focus on
+    ** how to write programs that scale **
+
+Content covered in this course will be used in basically every other COMP
+course and even in your job interviews!!
+
+Admin stuff:
+    - Course e-mail: cs2521@cse.unsw.edu.au
+    - Course forum
+    - Tutorials
+    - Labs
+        ~ In BassOMB149 (in Old Main Building)
+        ~ Some labs are handmarked! I will go into more detail about this later
+        ~ Not as many autotests :(
+    - Quizzes
+    - Assignments
+    - Final exam
+
+
+
+
+
+
+
+Icebreaker!
+Let's go around the classroom and say:
+    - Name, year/degree, and the hardest thing for you in COMP1511
+
