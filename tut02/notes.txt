@@ -11,20 +11,24 @@ Admin stuff:
 
 
 
-
-
-
-
 So, what is recursion?
     - Recursion is a way of solving problems where a problem is solved by
-        ...
+        solving a small part of it first, and then leaving the rest of it
+        as a (smaller), almost identical "subproblem".
 
 We have a problem: we need to climb the rainbow stairs
     - Iterative:
-
+        while i am not at the top of the staircase:
+            climb one step
 
     - Recursively:
+        (base case)
+        if i am at the top:
+            do nothing, because I am already at the top
 
+        (recursive case)
+        else:
+            climb one step, and then climb the rest of the staircase
 
 
 
@@ -35,15 +39,15 @@ Why should we use recursion?
 
 
 Downsides of recursion:
-
+    - Takes up a lot of memory
+    - Can be difficult to read (complicated)
+    - Can be slower than an iterative solution
 
 
 Linked lists and recurstion:
     - You can think of a linked list as either:
-        -
-        -
-
-
+        - An empty list, or
+        - A node, and the rest of the list (sublist)
 
 
 
@@ -55,6 +59,9 @@ How do we calculate it?
     - e.g. T(n) = 2n(n + 3log(n))
 
     1. Remove the coefficients
+    T(n) =  2n(n + 3log(n))
+         = 2n^2 + 6 * nlog(n)
+         -> n^2 + nlog(n)
 
     2. Take the most dominant term
-
+         -> O(n^2)
