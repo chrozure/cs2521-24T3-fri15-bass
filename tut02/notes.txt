@@ -1,0 +1,60 @@
+Hello again and welcome to week 2!
+
+In this tutorial we will be looking at:
+    - Recursion
+    - Analysis of Algorithms
+
+Admin stuff:
+    - This code is available on a Github repository
+    - You can get lab01 handmarked today or next week
+    - This week's lab has no handmarking (fully automarked)
+
+
+
+
+
+
+
+So, what is recursion?
+    - Recursion is a way of solving problems where a problem is solved by
+        ...
+
+We have a problem: we need to climb the rainbow stairs
+    - Iterative:
+
+
+    - Recursively:
+
+
+
+
+Why should we use recursion?
+    - It can make our code look a lot simpler
+    - Some problems are easier to think about recursively
+    - Some programming languages do not have loops (you have to use recursion!)
+
+
+Downsides of recursion:
+
+
+
+Linked lists and recurstion:
+    - You can think of a linked list as either:
+        -
+        -
+
+
+
+
+
+Analysis of algorithms
+What is big-O?
+    - A way of quantitatively describing how fast or slow an algorithm runs at scale
+
+How do we calculate it?
+    - e.g. T(n) = 2n(n + 3log(n))
+
+    1. Remove the coefficients
+
+    2. Take the most dominant term
+
