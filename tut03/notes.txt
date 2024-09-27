@@ -1,10 +1,11 @@
 Welcome to week 3!
 
 In this tutorial we will be focusing on sorting algorithms!
-Sorting algorithms are used everywhere, but you probably have never thought too much about it.
+Sorting algorithms are used everywhere, but you probably have never
+thought too much about how they actually work.
 
 Admin stuff:
-    - This week is the last week you can get lab01 marked!
+    - This week is the last week you can get lab01 hand-marked!
 
     - In this week's lab, there is no coding but you will instead need to write up a report
     - lab03 is fully handmarked, and you have until week 5 to get it handmarked
