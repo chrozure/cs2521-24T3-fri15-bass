@@ -1,0 +1,32 @@
+course	    name	program
+
+a. Stable
+COMP1927	Jane	3970
+COMP1927	John	3978
+COMP1927	Pete	3978
+MATH1231	John	3978
+MATH1231	Adam	3970
+PSYC1011	Adam	3970
+PSYC1011	Jane	3970
+
+After stable sort:
+
+
+
+
+
+
+
+
+b. Unstable
+COMP1927	Jane	3970
+COMP1927	John	3978
+COMP1927	Pete	3978
+MATH1231	John	3978
+MATH1231	Adam	3970
+PSYC1011	Adam	3970
+PSYC1011	Jane	3970
+
+After unstable sort:
+
+

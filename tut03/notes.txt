@@ -1,0 +1,24 @@
+Welcome to week 3!
+
+In this tutorial we will be focusing on sorting algorithms!
+Sorting algorithms are used everywhere, but you probably have never thought too much about it.
+
+Admin stuff:
+    - This week is the last week you can get lab01 marked!
+
+    - In this week's lab, there is no coding but you will instead need to write up a report
+    - lab03 is fully handmarked, and you have until week 5 to get it handmarked
+        but you MUST submit it by next Monday!
+    - You can also do lab03 in pairs!
+
+
+Sorting algorithms:
+    - Here is a cool video which helps you visualise (and audiolize) various sorting algorithms:
+        https://www.youtube.com/watch?v=kPRA0W1kECg
+
+    - This website allows you to look at the step-by-step process for sorting:
+        https://visualgo.net/en/sorting
+
+Time complexity revision:
+    - Here is a Kahoot made by one of our tutors, Patrick, that tests your understanding of big O!
+        https://create.kahoot.it/share/time-complexity-quiz/80b38a63-a971-4d73-b944-3ea5a4702fd5

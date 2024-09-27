@@ -1,0 +1,39 @@
+Let's compare the performance of bubble sort vs insertion sort!
+
+Bubble Sort:
+    -
+
+    - Best case:
+    - Worst case:
+
+Insertion sort:
+    -
+
+    - Best case:
+    - Worst case:
+
+
+1. Sorted input
+Bubble sort:
+    1 2 3 4 5
+
+Insertion sort:
+    1|2 3 4 5
+
+
+
+2. Reverse-sorted
+Bubble sort:
+    5 4 3 2 1
+
+Insertion sort:
+    5|4 3 2 1
+
+
+
+3. Sorted, except the first and last elements are swapped
+Bubble sort:
+    5 2 3 4 1
+
+Insertion sort:
+    5|2 3 4 1

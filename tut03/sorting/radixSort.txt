@@ -1,0 +1,14 @@
+[0] set
+[1] how
+[2] cup
+[3] hob
+[4] paw
+[5] hat
+[6] cob
+[7] pot
+
+After sorting by 3rd character:
+
+After sorting by 2nd character:
+
+After sorting by 1st character:
