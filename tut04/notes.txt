@@ -17,10 +17,11 @@ ADTs:
         how to use it, without telling you how it is implemented "underneath the hood".
 
     - e.g. driving a car
-    - e.g.
+    - e.g. stacks and queues
 
     - Why is this useful?
-        -
+        - It helps us split a big problem into smaller ones
+        - It allows us to think about problems at a "higher level"
 
 
 
@@ -28,15 +29,14 @@ ADTs:
 
 BSTs:
     - Binary Search Trees are a new data type!
-    - They aim to solve the problems that arrays
-        and linked lists have:
+    - They aim to solve the problems that arrays and linked lists have:
         -
         -
 
 
 Assignment 1:
     - The assignment spec can be found on this page:
-        -
+        - https://cgi.cse.unsw.edu.au/~cs2521/24T3/assignments/ass1/
 
     - Start early!!!
         - When I took COMP2521, I spent almost a whole day just understanding the spec

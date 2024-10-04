@@ -22,11 +22,27 @@ void QueueFree(Queue q) {
 }
 
 void QueueEnqueue(Queue q, int item) {
-	return;
+	StackPush(q->s1, item);
 }
 
 int QueueDequeue(Queue q) {
-	return -1;
+
+	// take everything off of stack 1 and put it on stack 2
+	while (StackSize(q->s1) > 0) {
+		int item = StackPop(q->s1);
+		StackPush(q->s2, item);
+	}
+
+	// take off the top of stack 2
+	int returnNumber = StackPop(q->s2);
+
+	// put everything on stack 2 back onto stack 1
+	while (StackSize(q->s2) > 0) {
+		int item = StackPop(q->s2);
+		StackPush(q->s1, item);
+	}
+
+	return returnNumber;
 }
 
 

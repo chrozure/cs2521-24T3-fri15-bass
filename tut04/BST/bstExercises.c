@@ -49,23 +49,58 @@ int main(void) {
 ///////////////////////////////////////////////////////
 
 int bstNumNodes(struct node *t) {
-    // TODO
-    return 0;
+    // base case - empty tree
+    if (t == NULL) return 0;
+
+    // recursive case - node and two subtrees
+    return 1 + bstNumNodes(t->left) + bstNumNodes(t->right);
 }
 
 int bstCountOdds(struct node *t) {
-    // TODO
-    return 0;
+    // base case - empty tree
+    if (t == NULL) {
+        return 0;
+    }
+
+    // recursive case - current value is odd
+    if (t->value % 2 != 0) {
+        return 1 + bstCountOdds(t->left) + bstCountOdds(t->right);
+    }
+
+    // recursive case - current value is even
+    return bstCountOdds(t->left) + bstCountOdds(t->right);
 }
 
 int bstCountInternal(struct node *t) {
-    // TODO
-    return 0;
+    // base case - tree is empty
+    if (t == NULL) {
+        return 0;
+    }
+
+    // base case - "leaf" node
+    if (t->left == NULL && t->right == NULL) {
+        return 0;
+    }
+
+    // recursive case - internal node
+    return 1 + bstCountInternal(t->left) + bstCountInternal(t->right);
 }
 
 int bstHeight(struct node *t) {
-    // TODO
-    return 0;
+    // base case - empty tree
+    if (t == NULL) {
+        return -1;
+    }
+
+    // recursive case - node with two subtrees
+    int heightOfLeftSubtree = bstHeight(t->left);
+    int heightOfRightSubtree = bstHeight(t->right);
+
+    if (heightOfLeftSubtree > heightOfRightSubtree) {
+        return 1 + heightOfLeftSubtree;
+    }
+
+    return 1 + heightOfRightSubtree;
 }
 
 int bstNodeLevel(struct node *t, int key) {
