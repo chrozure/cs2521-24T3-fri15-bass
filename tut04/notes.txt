@@ -1,0 +1,42 @@
+We are 1/3 done with the course! Things are starting to get serious now...
+
+This week we will be looking at ADTs and BSTs.
+These stand for Abstract Data Types and Binary Search Trees,
+and will be the main topics of your first assignment!
+
+
+Admin:
+    - You can get the handmarking for lab03 done this week or next week
+    - There is some handmarking for this week's lab, but it is only worth 1/5.
+    - Assignment 1 has been released! If I have some time, I will go through it today.
+
+
+
+ADTs:
+    - An Abstract Data Type is a type of data type where you are given an interface that describes
+        how to use it, without telling you how it is implemented "underneath the hood".
+
+    - e.g. driving a car
+    - e.g.
+
+    - Why is this useful?
+        -
+
+
+
+
+
+BSTs:
+    - Binary Search Trees are a new data type!
+    - They aim to solve the problems that arrays
+        and linked lists have:
+        -
+        -
+
+
+Assignment 1:
+    - The assignment spec can be found on this page:
+        -
+
+    - Start early!!!
+        - When I took COMP2521, I spent almost a whole day just understanding the spec

@@ -1,0 +1,25 @@
+      5
+     / \
+    /   \
+   /     \
+  3       8
+ / \     /  \
+1   4   7    9
+
+In-order:
+    -
+
+Pre-order:
+    -
+
+Post-order:
+    -
+
+Level-order:
+    -
+
+What kind of trees have the property that their in-order traversal is the same as their pre-order traversal?
+
+Are there any kinds of trees for which all output orders will be the same?
+
+
