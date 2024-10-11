@@ -1,0 +1,38 @@
+a.
+Adjacency Matrix representation for undirected graph:
+    0  1  2  3  4  5
+   -------------------
+0 | 0  1  0  0  0  1
+1 | 1  0  0  0  0  1
+2 | 0  0  0  0  0  1
+3 | 0  0  0  0  0  1
+4 | 0  0  0  0  0  1
+5 | 1  1  1  1  1  0
+
+Adjacency Matrix representation for directed graph:
+    0   1   2   3   4   5
+   ----------------------
+0 | 0  1  0  0  0  0
+1 | 0  0  0  0  0  1
+2 | 0  0  0  0  0  0
+3 | 0  0  0  0  0  1
+4 | 0  0  0  0  0  0
+5 | 1  1  1  1  1  0
+
+
+b.
+Adjacency list representation for undirected graph:
+0|-> 1 -> 5
+1|-> 0 -> 5
+2|-> 5
+3|-> 5
+4|-> 5
+5|-> 0 -> 1 -> 2 -> 3 -> 4
+
+Adjacency list representation for directed graph:
+0|-> 1
+1|-> 5
+2|->
+3|-> 5
+4|->
+5|-> 0 -> 1 -> 2 -> 3 -> 4

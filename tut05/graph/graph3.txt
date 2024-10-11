@@ -1,0 +1,8 @@
+How is the adjacency matrix for a directed graph
+different to that for an undirected graph?
+
+    - The adjacency matrix for an undirected graph is symmetric and
+        has zeroes on the leading diagonal (no self-edges).
+
+    - The adjacency matrix for a directed graph is typically not symmetric
+        and can have non-zero values on the leading diagonal (self-edges are allowed).

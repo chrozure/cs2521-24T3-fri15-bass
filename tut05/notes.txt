@@ -1,0 +1,68 @@
+Only a few days until flexi week!
+
+This week we will be looking at balancing BSTs, AVL trees and introducing graphs!
+
+AVL Trees may be useful for those trying to optimise their solutions for the assignment.
+
+Graphs are the second big topic for this course, and
+will be used in this week's lab, where you make your own budget Facebook!
+
+Admin:
+    - There is handmarking to be done for:
+        lab03, lab04 AND lab05
+    - During lab time, I will prioritise those who need lab03 marked first
+
+    - Assignment 1 is due 8pm Monday of week 7.
+        This is the last tutorial before it's due, so make sure to ask
+        all your questions today, or post them on the forum :)
+
+
+
+
+Balancing BSTs:
+    - As we saw last week, if we insert values into a BST in different orders,
+        the shape of the resulting tree might also be different
+    - This could be bad if we end up with a degenerate tree
+
+    - Fortunately, we can fix this with rotations!
+    - You can use this website to visualise tree rotations:
+        https://structs.sh/visualiser/binary-search-trees
+
+
+
+AVL Trees:
+    - AVL Trees are like a smart BST, because they can rebalance themselves to ensure
+        that they are height-balanced after every insertion/deletion
+    - This allows for worst-case O(log n) insertion and search!
+
+    - You can use this website to visualise AVL tree operations:
+        https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
+
+
+
+Graphs:
+    - Graphs are a another new data type!
+    - Graphs consist of:
+        - vertices (nodes) and
+        - edges which connect the vertices
+
+    - They are a general linked data structure, and
+        can be used to represent any sort of relationship between things
+        - e.g. Facebook, Google Maps, Structure of atoms in molecules
+
+    - There are some important properties we can consider:
+        - directed vs undirected
+        - weighted vs unweighted
+
+    - We will look at 3 different implementations of graphs:
+        - Adjacency matrix
+        - Adjacency list
+        - Array of edges
+
+
+
+Assignment 1 Tips / Q&A:
+    - Make sure to do lots of testing using both asan and msan!
+
+    - Make sure to refer to the style guide
+        - Remember to label your helper functions as "static"

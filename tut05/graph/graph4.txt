@@ -1,0 +1,14 @@
+a. What are the vertices?
+
+
+b. What are the edges?
+
+
+c. Are edges directional?
+
+
+d. What does the degree of each vertex represent?
+
+
+e. What kind of graph algorithm could suggest potential friends?
+
