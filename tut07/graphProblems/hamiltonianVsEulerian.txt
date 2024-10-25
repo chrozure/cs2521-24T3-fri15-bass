@@ -1,11 +1,11 @@
 A Hamiltonian path is:
-    -
+    - a path which visits every vertex exactly once
 
 A Hamiltonian circuit is:
-    -
+    - a cycle which visits every vertex exactly once, except for the starting/ending node
 
 An Euler path is:
-    -
+    - a path which traverses through every edge exactly once
 
 An Euler circuit is:
-    -
+    - a cycle which traverses through every edge exactly once
