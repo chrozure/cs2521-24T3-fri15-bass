@@ -1,0 +1,27 @@
+Suppose you have:
+    - n variables (x_1, x_2, ..., x_n),
+    - m equalities of the form x_i = x_j (where i != j) and
+    - k inequalities of the form x_i != x_j (where i != j).
+
+Come up with an algorithm (described in plain English or pseudocode)
+to determine whether this system of equations is consistent or contradictory.
+
+
+Example:
+    - 5 variables (x_1, x_2, x_3, x_4, x_5)
+    - Equalities:
+        x_1 = x_3
+        x_2 = x_3
+        x_4 = x_5
+
+    - Inequalities:
+        x_1 != x_4
+        x_3 != x_4
+        x_2 != x_1
+        x_2 != x_5
+
+Is this system consistent?
+
+
+Algorithm:
+    -

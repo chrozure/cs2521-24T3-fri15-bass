@@ -1,0 +1,11 @@
+A Hamiltonian path is:
+    -
+
+A Hamiltonian circuit is:
+    -
+
+An Euler path is:
+    -
+
+An Euler circuit is:
+    -

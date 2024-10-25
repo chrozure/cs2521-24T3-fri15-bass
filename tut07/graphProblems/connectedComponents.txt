@@ -1,0 +1,7 @@
+cc[] = {0, 0, 0, 1, 1, 1, 0, 0, 0, 1}
+
+If d is removed:
+    -
+
+If b is removed:
+    -

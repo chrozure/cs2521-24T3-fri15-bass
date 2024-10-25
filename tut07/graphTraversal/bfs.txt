@@ -1,0 +1,33 @@
+bfs(G, src):
+    Input: graph G, vertex src
+
+    create visited array, initialised to false
+    create predecessor array, initialised to -1
+    create queue Q
+
+    mark src as visited
+    enqueue src into Q
+
+    while Q is not empty:
+        dequeue v from Q
+
+        for each neighbour w of v:
+            if w has not been visited:
+                mark w as visited
+                set predecessor of w to v
+                enqueue w into Q
+
+
+For bfs(g, 0):
+
+#  Printed  visited                   pred                      Queue (front at left)
+            0  1  2  3  4  5  6  7    0  1  2  3  4  5  6  7
+0     -     1  0  0  0  0  0  0  0    -  -  -  -  -  -  -  -    0
+1
+2
+3
+4
+5
+6
+7
+8

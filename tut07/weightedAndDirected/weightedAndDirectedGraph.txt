@@ -1,0 +1,18 @@
+Adjacency matrix representation:
+    0  1  2  3
+   -----------
+0 | -  -  -  -
+1 | -  -  -  -
+2 | -  -  -  -
+3 | -  -  -  -
+
+Adjacency list representation:
+_
+0|->
+ |
+1|->
+ |
+2|->
+ |
+3|->
+-
