@@ -1,0 +1,42 @@
+Welcome to week 8, we are approaching the final stretch!
+
+This week is the last week on graphs. We will be doing some more graph traversals,
+cover Dijkstra's Algorithm, and then finish up with Minimum Spanning Trees.
+
+I will also try to give a brief introduction to assignment 2.
+
+Admin:
+    - As always, there is handmarking to be done for
+        lab05, lab07, and lab08
+    - The automarking for assignment 1 is now complete.
+        You can check your marks on sturec:
+        https://cgi.cse.unsw.edu.au/~give/code/login.php?app=/~give/Student/sturec.php
+
+    - If you failed some autotest which you think you shouldn't have, please create a private
+        post on the forum raising your concern.
+
+
+
+
+Dijkstra's algorithm:
+    - Dijkstra's algorithm is the equivalent of a depth-first search
+        for weighted graphs
+    - It aims to find the shortest path from a single source to other vertices
+    - It has a very similar structure to a depth-first search, but is typically
+        implemented with a priority queue
+
+    - This is an amazing website to visualise Dijkstra's algorithm:
+        https://www.joshlim.dev/visualisers/graphs
+
+
+
+Minimum spanning trees:
+    - A problem in graph theory is to find the cheapest way to connect all vertices
+    - e.g. How can you make sure everyone in your town can access the internet?
+
+    - There are two main algorithms to construct a minimum spanning tree:
+        - Kruskal's algorithm
+        - Prim's algorithm
+
+    - This website can illustrate both methods:
+        https://www.joshlim.dev/visualisers/graphs

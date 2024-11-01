@@ -1,0 +1,13 @@
+A vertex is reachable from a source vertex if
+
+a. Vertices reachable from 0
+    -
+
+b. Vertices reachable from 1
+    -
+
+c. Vertices reachable from 5
+    -
+
+d. Vertices reachable from 6
+    -

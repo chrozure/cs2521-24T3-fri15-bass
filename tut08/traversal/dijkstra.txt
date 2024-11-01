@@ -1,0 +1,19 @@
+dijkstraSSSP(G, src):
+    Inputs: graph G, source vertex src
+
+    create dist array, initialised to ∞
+    create pred array, initialised to -1
+    create vSet containing all vertices of G
+
+    dist[src] = 0
+    while vSet is not empty:
+    find vertex v in vSet such that dist[v] is minimal
+    remove v from vSet
+    for each edge (v, w, weight) in G:
+        relax along (v, w weight)
+
+Initialisation:
+vSet = { 0, 1, 2, 3, 4, 5, 6, 7 }
+dist = [  0,  ∞,  ∞,  ∞,  ∞,  ∞,  ∞,  ∞ ]
+pred = [ -1, -1, -1, -1, -1, -1, -1, -1 ]
+
