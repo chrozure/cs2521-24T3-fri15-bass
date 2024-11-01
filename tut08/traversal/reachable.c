@@ -4,6 +4,7 @@
 #include "Graph.h"
 
 Set reachable(Graph g, Vertex src);
+static void dfs(Graph g, Set seen, Vertex src);
 
 int main(void) {
     Graph g = GraphNew(10);
@@ -42,5 +43,20 @@ int main(void) {
 }
 
 Set reachable(Graph g, Vertex src) {
-    return NULL;
+    Set seen = SetNew();
+    dfs(g, seen, src);
+    return seen;
+}
+
+static void dfs(Graph g, Set seen, Vertex src) {
+    // base case - current vertex has been recahed
+    if (SetContains(seen, src)) return;
+
+    // recursive case - we haven't explore the current vertex
+    SetAdd(seen, src);
+    for (Vertex w = 0; w < GraphNumVertices(g); w++) {
+        if (GraphIsAdjacent(g, src, w)) {
+            dfs(g, seen, w);
+        }
+    }
 }
