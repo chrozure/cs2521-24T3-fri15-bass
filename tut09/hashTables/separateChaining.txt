@@ -1,0 +1,10 @@
+We have a hash table of size N which uses separate chaining for collision resolution.
+
+When we insert k = 2N elements:
+    - the worst case is:
+
+    - The best case is:
+
+
+The average search cost is:
+

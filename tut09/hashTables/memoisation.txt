@@ -1,0 +1,12 @@
+a. Design an ADT for a memoiser that supports memoisation of an expensive single-argument function.
+
+
+
+b. One potential problem with memoisation is that the cache's memory usage can grow quite large
+    when the function is called for lots of inputs. This is often solved by limiting the size
+    of the cache and having a policy which can be used to pick entries to remove from the cache
+    to make more room. What are some possible policies you could use?
+
+
+
+c. Can you think of how you would actually implement some of these policies?

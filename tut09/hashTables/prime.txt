@@ -1,0 +1,6 @@
+Fun fact: 2521 is a prime number!
+If a hash table which stores integer keys had 2521
+slots and used double hashing for collision resolution,
+define a suitable secondary hash function
+
+Answer:
