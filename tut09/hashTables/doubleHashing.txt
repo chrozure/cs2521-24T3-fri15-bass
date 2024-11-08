@@ -10,5 +10,11 @@ h_2(x) = (x % 3) + 1.
 
 
 What happens if we try to insert the value 10?
+h(10) = 0, but the slot at index 0 is already filled.
+h_2(x) = 2, so we will check indices 2, 4, 6, 8, 0, 2, 4, ...
 
+Although our hash table is only half full, we are
+never able to find an empty slot.
 
+This happens because the increment returned by the secondary hash function
+is not relatively prime to the size of the hash table.

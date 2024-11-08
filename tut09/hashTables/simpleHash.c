@@ -5,7 +5,7 @@ int hash(char *key, int N);
 int main(int argc, char *argv[]) {
 
     int size = 100;
-    printf("hash(\"hi\") = %d\n", hash("hi", size));
+    printf("hash(\"Bob\") = %d\n", hash("Bob", size));
     printf("hash(\"z12345\") = %d\n", hash("z12345", size));
 
 	// You can use command-line arguments to try more hashing!
@@ -21,8 +21,9 @@ int main(int argc, char *argv[]) {
 int hash(char *key, int N) {
 	int h = 0;
 	char *c;
-	for (c = key; *c != '\0'; c++) {
-		h = h + *c;
+	int i = 0;
+	for (c = key; *c != '\0'; c++, i++) {
+		h = h + *c * i;
 	}
 	return h % N;
 }

@@ -2,9 +2,21 @@ We have a hash table of size N which uses separate chaining for collision resolu
 
 When we insert k = 2N elements:
     - the worst case is:
+        the hash function returns a constant value
+        and the keys arrive in ascending order.
 
     - The best case is:
+        when we have a hash function that distributes
+        the items uniformly across the table. In this case,
+        we end up with a chain of length ceil(k/N) attached
+        to each hash table entry.
 
 
 The average search cost is:
+    - k/2 in the worst case, since eaach insertion requires a
+        scan of a single chain of length k
 
+    - 1.5 in the best case. each search requires a scan of a chain of length 2,
+        which means half the time, one comparison will be made, and
+        the other half of the time, two comparisons will be made.
+        Thus, the average search cost will be 1.5.

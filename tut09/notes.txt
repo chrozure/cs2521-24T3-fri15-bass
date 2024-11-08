@@ -14,6 +14,13 @@ Admin:
 
 
 
+
+
+
+
+
+
+
 Hash maps:
     - Hash maps are an example of an associative data structure!
         key -> value
@@ -36,7 +43,13 @@ Hash maps:
             and loop through the zids array when you want to find someone's marks
 
         - What is bad about this implementation?
-            -
+            - You can only have one score
+            - Your keys have to be unique
+            - Slow (O(n))
+            - zIDs and marks are "separate from each other"
 
         - Idea:
+            - It would be really nice if we could have a single array of marks and go
+                marks["z12345"] = 100;
 
+            - marks[hash("z12345", 10)] = 100;
