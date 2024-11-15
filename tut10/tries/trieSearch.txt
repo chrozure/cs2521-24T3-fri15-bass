@@ -1,9 +1,9 @@
-now →
-the →
-ant →
-access →
-actor →
-action →
-actors →
-tang →
-a →
+now → 2, 6, 13
+the → 3, 8, 16
+ant → 1, 5, 12
+access → 1, 4, 10, 17, 22, 24
+actor → 1, 4, 11, 18, 23
+action → 1, 4, 11, fails (no "i")
+actors → 1, 4, 11, 18, 23, fails (leaf)
+tang → 3, 7, 15, fails (leaf)
+a → 1, fails (not red)

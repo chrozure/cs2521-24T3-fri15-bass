@@ -8,7 +8,7 @@ Admin:
     - Stanley and I have finished your assignment 1 handmarking so the marks should come out soon.
         Please let me know if you have any questions about it.
 
-    - Assignment 2 is due this Friday at 8pm, good luck :)
+    - Assignment 2 is due this Friday at 11pm, good luck :)
 
     - The sample exam has been released - you can view it on webCMS:
         - https://cgi.cse.unsw.edu.au/~cs2521/24T3/sample-exam
@@ -46,10 +46,10 @@ Heaps:
 
     - In this tutorial, we will be looking at max heaps. They have 2 properties:
         - Heap property:
-            - The value at every node in the tree is larger than all of its children
+            - the value in every node is larger than all of its children
 
         - Completeness property:
-            - You must always fill in this tree going from left to right
+            - every level of a heap is filled going from left to right
 
     - Check out this website for a (min) heap visualisation:
         https://www.cs.usfca.edu/~galles/visualization/Heap.html

@@ -2,8 +2,25 @@ a. A simple way to solve this problem is to sort the array in increasing order,
 and then the largest k elements would be the last k elements of the sorted array.
 What is the worst-case time complexity of this approach?
 
+The worst-case time complexity is dominated by the cost of sorting the array, which is
+O(n log n).
 
 
 b. Come up with a more efficient method that uses a heap.
 What is the worst-case time complexity of this method?
 
+We can use a min heap instead and start deleting from the heap as soon as it contains more than k elements.
+This works because if we keep deleting the smallest element, then the heap will always contain
+the largest elements we have seen so far. Here is the pseudocode for this approach:
+
+topK:
+	Input: array A of size n
+	       integer k
+
+	h = new min heap
+	for i from 0 up to n - 1:
+		insert A[i] into h
+		if i >= k:
+			delete from h
+
+The worst-case time complexity of this approach is O(n log k).
