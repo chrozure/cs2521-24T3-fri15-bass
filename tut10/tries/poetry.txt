@@ -1,0 +1,6 @@
+To help investigate this poetry and write some of your own, you would like to
+devise a method to find the number of words that rhyme with a given word with degree k.
+
+Can you come up with a method to efficiently answer queries like the ones above?
+Suppose you are allowed to preprocess the words of the language before answering any queries.
+

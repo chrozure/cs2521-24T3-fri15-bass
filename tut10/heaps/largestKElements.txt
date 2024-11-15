@@ -1,0 +1,9 @@
+a. A simple way to solve this problem is to sort the array in increasing order,
+and then the largest k elements would be the last k elements of the sorted array.
+What is the worst-case time complexity of this approach?
+
+
+
+b. Come up with a more efficient method that uses a heap.
+What is the worst-case time complexity of this method?
+

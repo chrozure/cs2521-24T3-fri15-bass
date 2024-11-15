@@ -1,0 +1,11 @@
+Explain how a trie could be used to implement
+basic autocomplete, which suggests all possible words.
+
+
+
+Users are much more likely to type some words than others, so
+ideally autocomplete should suggest more likely words.
+For example, if a user has typed "tho", autocomplete should
+suggest "though" instead of "thou". How could you extend your
+solution so that autocomplete suggests more likely words?
+

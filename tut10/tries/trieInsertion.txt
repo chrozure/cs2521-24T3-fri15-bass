@@ -1,0 +1,5 @@
+Under what circumstances would inserting a new word into a trie
+not result in adding any new nodes? What would be the effect
+on the tree of inserting the word?
+
+

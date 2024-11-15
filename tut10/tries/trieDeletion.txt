@@ -1,0 +1,4 @@
+What are the two cases when deleting aword from a trie?
+How is each case handled?
+
+

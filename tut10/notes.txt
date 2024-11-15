@@ -1,0 +1,82 @@
+COMP2521 is almost over D:
+
+This week's tutorial content is on the last few data structures heaps and tries,
+but there are a lot of other important things to mention.
+
+
+Admin:
+    - Stanley and I have finished your assignment 1 handmarking so the marks should come out soon.
+        Please let me know if you have any questions about it.
+
+    - Assignment 2 is due this Friday at 8pm, good luck :)
+
+    - The sample exam has been released - you can view it on webCMS:
+        - https://cgi.cse.unsw.edu.au/~cs2521/24T3/sample-exam
+
+    - The lab today will be used for revision, any final handmarking,
+        and also the exam demo.
+
+    - MyExperience is out - please do it! It helps us improve the course
+        for future iterations and you get some cool perks if you do.
+
+
+MyExperience:
+    - Usually, there is some incentive for you guys to complete the survey
+
+    - I have some snacks this week, which I will pass out to people who complete it
+
+
+
+
+
+Final exam:
+    - In the lab today, you have the opportunity to do
+        do an exam demo, where you can experience the exam environment.
+
+    - Who wants to do it?
+
+
+
+Heaps:
+    - Heaps are an efficient tree-like data structure used to implement priority queues
+
+    - You would have seen priority queues before with Dijkstra's algorithm
+        or Prim's algorithm. They are like queues, except when you dequeue,
+        it returns the number with the most priority, instead of the first value.
+
+    - In this tutorial, we will be looking at max heaps. They have 2 properties:
+        - Heap property:
+            - The value at every node in the tree is larger than all of its children
+
+        - Completeness property:
+            - You must always fill in this tree going from left to right
+
+    - Check out this website for a (min) heap visualisation:
+        https://www.cs.usfca.edu/~galles/visualization/Heap.html
+
+
+Tries:
+    - Tries are an even more efficient data structure and is mainly used for pattern matching
+
+    - You can kind of think of them as a tree of arrays
+        - Each node contains an array of pointers, which represent if a word with the letter exists
+
+    - Amazingly, this data structure has O(1) lookup time!
+
+    - Check out this website for trie visualisations:
+        https://www.cs.usfca.edu/~galles/visualization/Trie.html
+
+
+
+
+Revision Kahoot:
+    - https://create.kahoot.it/share/comp2521-revision/9b46d3b1-ef58-47b6-8c27-55878d71f610
+
+
+
+
+
+Final words:
+    - Thank you everyone for the great term! This term has been a pleasure to teach :)
+
+    - Good luck with the exam, and I wish you all the best in the future!
